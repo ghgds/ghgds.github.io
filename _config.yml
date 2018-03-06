@@ -1,0 +1,91 @@
+# Site settings 配置站点
+title: 'Twioo 的 Blog'
+description: '环境控制行业，供应链工程师，技术爱好者，GitHub小白'
+keyword: '数据库，SAP，区块链'
+url: 'https://ghgds.github.io/' # your host
+
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
+
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
+
+# Footer
+footer:
+  since: 2018.3
+
+# Author 配置博主信息
+author: 'Twioo'
+nickname: 'Twioo'
+bio: '新技术爱好者'
+avatar: '/assets/img/profile.png'
+
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# Comments 评论功能
+#   default_hidden：是否默认隐藏评论。若是则需要点击一按钮后才显示。 by Ray-Eldath
+# comments:
+  # default_hidden: true
+  # disqus: false
+  # disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+  # livere: true
+  # livere_uid: MTAyMC8yODEwMC80Njcz
+
+# Reward 赞赏功能 by Ray-Eldath
+reward:
+  enable: false
+  reward_comment: '真诚赞赏 手有余香'
+  wechatpay: 'http://ray-eldath.image.alimmdn.com/basic/wechatpay.jpg'
+  alipay: 'http://ray-eldath.image.alimmdn.com/basic/alipay.jpg'
+
+# b2t 回到顶部 by Ray-Eldath
+b2t: true
+
+# MathJax 公式支持 by Ray-Eldath
+mathjax: false
+
+# Share
+social-share: false
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'seaOfClouds'
+
+# SNS settings 配置社交网站url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  github: '//github.com/ghgds'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# RSS
+RSS: false
+
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
